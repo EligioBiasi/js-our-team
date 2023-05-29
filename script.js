@@ -7,6 +7,8 @@
 // Scott Estrada     Developer         scott-estrada-developer.jpg
 // Barbara Ramos     Graphic Designer  barbara-ramos-graphic-designer.jpg
 
+const { query } = require("express");
+
 // MILESTONE 0:
 // Creare l’array di oggetti con le informazioni fornite.
 
@@ -49,8 +51,21 @@ for(let i = 0; i<teamMembers.length; i++){
     
     const singleMember = teamMembers[i];
 
+    let cardContainer = document.querySelector('div.card');
+
     for(const chiave in singleMember){
-        console.log(chiave, ': ', singleMember[chiave]);
+        console.log(singleMember[chiave]);
+
+        cardContainer.innerHTML += 
+                '<img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text"></p>
+                  <p class="card-text"></p>
+                </div>'
+
+
+
+
     }
     console.log('*****');
 
