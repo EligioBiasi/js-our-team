@@ -57,18 +57,14 @@ for(let i = 0; i<teamMembers.length; i++){
         console.log(singleMember[chiave]);
 
         cardContainer.innerHTML += 
-                '<img src="..." class="card-img-top" alt="...">
+                '<img src="" class="card-img-top" alt="">
                 <div class="card-body">
                   <p class="card-text"></p>
                   <p class="card-text"></p>
                 </div>'
 
-
-
-
     }
     console.log('*****');
-
 }
 
 
