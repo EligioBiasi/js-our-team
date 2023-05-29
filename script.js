@@ -41,7 +41,7 @@ const teamMembers = [
         ruolo : 'Graphic Designer',
         foto: 'barbara-ramos-graphic-designer.jpg',
     },
-]
+];
 
 // MILESTONE 1:
 // Stampare su console, per ogni membro del team, le informazioni di nome, ruolo e la stringa della foto
@@ -57,6 +57,6 @@ for(let i = 0; i<teamMembers.length; i++){
 }
 
 
-
 // MILESTONE 2:
 // Stampare le stesse informazioni su DOM sottoforma di stringhers
+
